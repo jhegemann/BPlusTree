@@ -6,7 +6,7 @@ The implementation aims for performance and supports saving and bulk loading the
 #define INNER_NODE_DEGREE 32
 #define OUTER_NODE_DEGREE 32
 ```
-to find the sweet spot of your processor's cache behavior. For very large nodes reactivate
+and find the sweet spot of your processor's cache behavior. For very large nodes reactivate
 ```
 #undef INNER_NODE_BINARY_SEARCH
 #undef OUTER_NODE_BINARY_SEARCH
